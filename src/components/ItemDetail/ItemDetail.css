@@ -1,0 +1,43 @@
+.ItemDetail {
+    margin: 50px;
+}
+
+.imgDetail {
+    margin: 50px;
+    width: 400px;
+}
+
+.h2Detail {
+    position: relative;
+    left: 40%;
+    bottom: 25rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h3Detail {
+    position: relative;
+    left: 40%;
+    bottom: 25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+
+.pDetail {
+    position: relative;
+    left: 40%;
+    bottom: 25rem;
+}
+
+.buttonDetail {
+    position: relative;
+    left: 70%;
+    bottom: 100px;
+}
+
+.irCarritoText {
+    text-decoration: none;
+    color: black;
+}
+
+.irCarritoText:hover {
+    color: rgb(147, 147, 199);
+}
