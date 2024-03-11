@@ -2,7 +2,7 @@ import React, { useContext } from 'react'; // Importa useContext correctamente
 import { CartContext } from '../../context/CartContext';
 import { Link } from 'react-router-dom';
 
-import './carrito.css';
+import './Carrito.css';
 
 export const Carrito = () => {
     const { carrito, borrarProducto, precioTotal, borrarCarrito  } = useContext(CartContext);
