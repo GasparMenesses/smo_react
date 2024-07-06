@@ -1,0 +1,82 @@
+.containerItems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(231, 228, 224, 0.92);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin: 70px auto;
+    width: 92vw;
+    border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+    .containerItems {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90vw;
+    }
+}
+
+.item {
+    margin: 8%;
+    border-radius: 10px;
+    padding: 8%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(40, 39, 38, 0.886);
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+.imgProduct {
+    height: 15vw;
+    transition: 0.2s;
+    display: block;
+    padding: 5% 0 15% 0;
+}
+
+.imgProduct:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(240, 248, 255, 0.826);
+    font-size: 1.6vw;
+}
+
+.price {
+    position: relative;
+    bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(240, 248, 255, 0.826);
+    font-size: 1.1vw;
+}
+
+@media (max-width: 1000px) {
+    h2 {
+        font-size: 70%;
+    }
+    
+    .price {
+        font-size: 50%;
+    }
+}
+
+
+.listButton {
+    color: rgba(0, 0, 0, 0.708);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    background-color: rgba(231, 228, 224, 0.92);
+    border-radius: 6px;
+    padding: 3% 40%;
+    display: block;
+    margin: 10% auto 0 auto;
+}
+
+.listButton:hover {
+    background-color: rgba(231, 228, 224, 0.744);
+    cursor: pointer;
+}

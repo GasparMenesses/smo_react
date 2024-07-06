@@ -1,0 +1,26 @@
+import React, { useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
+
+const WelcomeScreen = () => {
+  const history = useHistory();
+
+  // Redirigir al index después de 3 segundos
+  useEffect(() => {
+    const redirectTimeout = setTimeout(() => {
+      history.push('/');
+    }, 3000);
+
+    // Limpiar el timeout cuando el componente se desmonta
+    return () => clearTimeout(redirectTimeout);
+  }, [history]);
+
+  return (
+    <div>
+      {/* Aquí puedes agregar tu animación de bienvenida */}
+      <h1>Bienvenido a mi sitio web</h1>
+      {/* Puedes personalizar la animación según tus necesidades */}
+    </div>
+  );
+};
+
+export default WelcomeScreen;

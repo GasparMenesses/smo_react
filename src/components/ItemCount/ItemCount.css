@@ -1,0 +1,30 @@
+.botonCarrito {
+    margin-inline: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(231, 228, 224, 0.92);
+}
+
+.botonCarrito:hover {
+    background-color: rgba(231, 228, 224, 0.845);
+    cursor: pointer;
+}
+
+.contadorCarrito {
+    font-size: 30px;
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    color: rgba(231, 228, 224, 0.845);
+}
+
+.itemCount {
+    border-radius: 15px;
+    background-color: rgb(59, 58, 57);
+    padding: 20px;
+    display: flex;
+    margin-top: 500px;
+    justify-content: end;
+}

@@ -1,0 +1,85 @@
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .NavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+    background-color: rgba(231, 228, 224, 0.92);
+    width: 100%;
+    height: 70px;
+    padding-right: 10%;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: start;
+  }
+
+  .logo img {
+    margin-inline: 30% 20%;
+    position: relative;
+    width: 7%;
+    min-width: 25px;
+    transition: 0.2s;
+  }
+
+  .logo img:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .NavBar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+  }
+  
+  .NavBar ul li a {
+    transition: 0.2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    text-decoration: none;
+    color: black;
+  }
+
+  @media screen and (max-width: 450px) {
+    .NavBar ul li a {
+      font-size: 70%;
+    }
+  
+  }
+
+
+
+  .NavBar ul li {
+    transition: 0.2s;
+  }
+  
+  .NavBar ul li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    cursor: pointer;
+  }
+  
+  .carrito {
+    margin-inline: 2vw;
+    display: flex;
+    margin-top: 10px;
+    transition: 0.2s;
+    color:inherit;
+    text-decoration: none;
+  }
+  
+  .carrito:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+
