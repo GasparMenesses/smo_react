@@ -10,9 +10,10 @@
 
 @media (max-width: 1000px) {
     .containerItems {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         width: 90vw;
     }
+    
 }
 
 .item {
@@ -29,7 +30,8 @@ figure {
 }
 
 .imgProduct {
-    height: 15vw;
+    height: 35vw;
+    max-height: 250px;
     transition: 0.2s;
     display: block;
     padding: 5% 0 15% 0;
@@ -44,6 +46,7 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     color: rgba(240, 248, 255, 0.826);
     font-size: 1.6vw;
+    letter-spacing: 1px;
 }
 
 .price {
@@ -56,11 +59,16 @@ h2 {
 
 @media (max-width: 1000px) {
     h2 {
-        font-size: 70%;
+        font-size: 4vw;
     }
     
     .price {
-        font-size: 50%;
+        font-size: 3vw;
+        letter-spacing: 1px;
+    }
+
+    .listButton {
+        font-size: 3vw !important;
     }
 }
 
